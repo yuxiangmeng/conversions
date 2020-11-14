@@ -1,3 +1,5 @@
+%TEMPERATURE_CONVERSIONS
+% Convert key temperature values between Fahrenheit, Kelvin, and Celsius
 deg = char(176);
 
 disp(['Water boils at 100', deg, 'C, which is ', num2str(celsius_to_fahrenheit(100)), deg, 'F.'])
