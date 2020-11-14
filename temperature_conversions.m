@@ -1,3 +1,8 @@
+%TEMPERATURE_CONVERSIONS
+% Check temperature conversions between Kelvin, Fahrenheit, Celsius and
+% Newton
+
+% Save degree symbol as a variable
 deg = char(176);
 
 disp(['Water boils at 100', deg, 'C, which is ', num2str(celsius_to_fahrenheit(100)), deg, 'F.'])
