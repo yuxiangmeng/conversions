@@ -15,5 +15,9 @@ fprintf('Absolute zero is %g%sF.\n', celsius_to_fahrenheit(kelvin_to_celsius(0))
 % Plot Fahrenheit vs Celsius
 degC = linspace(0,100,101);
 plot(degC, celsius_to_fahrenheit(degC))
+hold on
+degK = linspace(273, 373, 101);
+plot(kelvin_to_celsius(degK), degK)
 xlabel('Celsius')
-ylabel('Fahrenheit')
+ylabel('Conversion')
+legend('Fahrenheit', 'Kelvin', 'location', 'northwest')
