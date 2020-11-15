@@ -1,5 +1,7 @@
 %TEMPERATURE_CONVERSIONS
-% Print key temperature conversions between Kelvin, Fahrenheit, Celsius and
+
+% Display graph of temperature conversions between C, F, K, and N.
+% Check temperature conversions between Kelvin, Fahrenheit, Celsius and
 % Newton
 
 % Save degree symbol as a variable
