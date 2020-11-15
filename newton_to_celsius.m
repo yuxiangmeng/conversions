@@ -1,5 +1,6 @@
-function celsius = newton_to_celsius(newton)
-    %NEWTON_TO_CELSIUS   Convert Newton scale to Celsius
-
-    celsius = 100/33 * newton;
-end
+xlabel('Celsius')
+ylabel('Conversion')
+degN = linspace(0, 33, 34);
+plot(newton_to_celsius(degN), degN)
+xlim([0, 100])
+legend('Fahrenheit', 'Kelvin', 'Newton', 'location', 'northwest')

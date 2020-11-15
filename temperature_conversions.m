@@ -18,6 +18,7 @@ plot(degC, celsius_to_fahrenheit(degC))
 hold on
 degK = linspace(273, 373, 101);
 plot(kelvin_to_celsius(degK), degK)
+xlim([0, 100])
 xlabel('Celsius')
 ylabel('Conversion')
 legend('Fahrenheit', 'Kelvin', 'location', 'northwest')
